@@ -1,0 +1,11 @@
+C:\Users\gregs\Desktop\CD\IronWebScraperSample\IronWebScraperSample\bin\Debug\netcoreapp2.1\IronWebScraperSample.deps.json
+C:\Users\gregs\Desktop\CD\IronWebScraperSample\IronWebScraperSample\bin\Debug\netcoreapp2.1\IronWebScraperSample.runtimeconfig.json
+C:\Users\gregs\Desktop\CD\IronWebScraperSample\IronWebScraperSample\bin\Debug\netcoreapp2.1\IronWebScraperSample.runtimeconfig.dev.json
+C:\Users\gregs\Desktop\CD\IronWebScraperSample\IronWebScraperSample\bin\Debug\netcoreapp2.1\IronWebScraperSample.dll
+C:\Users\gregs\Desktop\CD\IronWebScraperSample\IronWebScraperSample\obj\Debug\netcoreapp2.1\IronWebScraperSample.csprojAssemblyReference.cache
+C:\Users\gregs\Desktop\CD\IronWebScraperSample\IronWebScraperSample\obj\Debug\netcoreapp2.1\IronWebScraperSample.csproj.CoreCompileInputs.cache
+C:\Users\gregs\Desktop\CD\IronWebScraperSample\IronWebScraperSample\obj\Debug\netcoreapp2.1\IronWebScraperSample.AssemblyInfoInputs.cache
+C:\Users\gregs\Desktop\CD\IronWebScraperSample\IronWebScraperSample\obj\Debug\netcoreapp2.1\IronWebScraperSample.AssemblyInfo.cs
+C:\Users\gregs\Desktop\CD\IronWebScraperSample\IronWebScraperSample\bin\Debug\netcoreapp2.1\IronWebScraperSample.pdb
+C:\Users\gregs\Desktop\CD\IronWebScraperSample\IronWebScraperSample\obj\Debug\netcoreapp2.1\IronWebScraperSample.dll
+C:\Users\gregs\Desktop\CD\IronWebScraperSample\IronWebScraperSample\obj\Debug\netcoreapp2.1\IronWebScraperSample.pdb
