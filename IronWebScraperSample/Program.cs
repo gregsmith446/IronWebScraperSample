@@ -1,4 +1,6 @@
 ﻿using System;
+using IronWebScraper;
+using IronWebScraperSample.HelloScraperSample;
 
 namespace IronWebScraperSample
 {
@@ -7,7 +9,7 @@ namespace IronWebScraperSample
         static void Main(string[] args)
         {
             // Create Object From Hello Scrape class
-            HelloScraperSample.HelloScraper scrape = new HelloScraperSample.HelloScraper();
+            HelloScraper scrape = new HelloScraper();
             // Start Scraping
             scrape.Start();
         }

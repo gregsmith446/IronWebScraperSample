@@ -4,10 +4,9 @@ namespace IronWebScraperSample.HelloScraperSample
 {
     public class HelloScraper : WebScraper
     {
-        /// <summary>
-        /// Override this method initialize your web-scraper.
-        /// Important tasks will be to Request at least one start url... and set allowed/banned domain or url patterns.
-        /// </summary>
+        // the Init() method initializes your web-scraper.
+        // Request at least one start url... and set allowed/banned domain or url patterns.
+
         public override void Init()
         {
             License.LicenseKey = "LicenseKey"; // Write License Key
@@ -15,30 +14,27 @@ namespace IronWebScraperSample.HelloScraperSample
             this.Request("https://blog.scrapinghub.com", Parse);
         }
 
-        /// <summary>
-        /// Override this method to create the default Response handler for your web scraper.
+        //  this method creates the default Response handler for your web scraper.
         /// If you have multiple page types, you can add additional similar methods.
-        /// </summary>
-        /// <param name="response">The http Response object to parse</param>
+
         public override void Parse(Response response)
         {
-            // set working directory for the project
-
-
             // Loop on all Links
             foreach (var title_link in response.Css("h2.entry-title a"))
             {
-                // Read Link Text
+                // Read Node's Text
                 string strTitle = title_link.TextContentClean;
+         
                 // Save Result to File
-                Scrape(new ScrapedData() { { "Title", strTitle } }, "HelloScraper.Jsonl");
+                System.Console.WriteLine(strTitle);
             }
+
             // Loop On All Links
             if (response.CssExists("div.prev-post > a[href]"))
             {
                 // Get Link URL
                 var next_page = response.Css("div.prev-post > a[href]")[0].Attributes["href"];
-                // Scrpae Next URL
+                // Scrape Next URL
                 this.Request(next_page, Parse);
             }
         }
